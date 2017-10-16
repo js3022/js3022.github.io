@@ -1,9 +1,9 @@
 html {
     box-sizing: border-box;
-    background-color: #FF6600;
+    background-color: #fff;
     margin: 0;
     padding: 0;
-    color: white
+    color: #222;
 }
 
 *, *:before, *:after {
@@ -11,70 +11,70 @@ html {
 }
 
 body {
-    min-height: 70vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     font-size: 20px;
     font-family: sans-serif;
-    margin-left: 550px;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    background-color: #FF6600;
 }
 
 .home {
-    width: 546px;
-    height: 455px;
+    width: 450px;
+    height: 200px;
     overflow: hidden;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     top: 0;
-    left: 0;  
+    left: 0; 
     background-color: #FF6600;
 }
 
 .wrapper {
-    min-width: 420px;
-    margin: 0;
-    padding: 20px;
+    width: 800px;    
+    margin: 0 auto;
+    padding: 0 40px;
     font-size: 20px;
     line-height: 2;
-    position: relative;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #222;
     background: rgba(0,0,0,0.05);
     border-radius: 20px;
     border: 2px solid rgba(0,0,0,0.01);
-    padding: 3px 6px;
+    padding: 3px 10px;
 }
 
 .highlight {
     transition: all 0.2s;
-    border-bottom: 2px solid #64BEC2;
+    border-bottom: 2px solid #FF6600;
     position: absolute;
     top: 0;
-    background: #64BEC2;
-    background: linear-gradient(to bottom, #A5DEE1 5%, #8FDDE1 20%, #64BEC2 30%, #207A7E 50%);
+    background: #FF6600;
     left: 0;
     z-index: -1;
     border-radius: 20px;
     display: block;
-    border: 1px solid white;
 }
 
 .menu {
     padding: 0;
     display: flex;
     list-style: none;
-    justify-content: flex-start;
-    margin: 60px 0 20px;
+    justify-content: center;
 }
 
 .menu a {
-    display: inline-block;
-    padding: 6px 12px;
+    display: inline-block;    
     margin: 0 20px;
-    color: white;
+    color: #222;
     font-weight: 400;
-    border: 1px solid white;
 }
